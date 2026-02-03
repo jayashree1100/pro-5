@@ -46,7 +46,7 @@ These two devices operate in a complementary manner and together form the basis 
 ### Complementary Metal-Oxide-Semiconductor (CMOS)
 
 
-<img src="images/CMOS inverter.JPG" alt="NMOS" align="right" width="180" style="margin-left:20px; margin-bottom:10px;">
+<img src="images/CMOS inverter.JPG" alt="NMOS" align="right" width="280" style="margin-left:20px; margin-bottom:10px;">
 
 
  - CMOS (Complementary Metal-Oxide-Semiconductor) logic employs both NMOS and PMOS transistors such that only one transistor network conducts in the steady state.
