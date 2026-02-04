@@ -117,26 +117,27 @@ Note: The AND/OR terms describe the conduction behavior of NMOS and PMOS network
 - Scalability: Supports large-scale integration, making it ideal for modern VLSI and high-performance digital systems.
 
 
-### Simulation Procedure
-1. Open PSPICE and create a new project.
-2. Draw the CMOS circuit according to the Boolean expression.
-3. Assign NMOS and PMOS models with appropriate parameters.
-4. Apply input voltages and run transient analysis.
-5. Observe the output waveform and verify that it matches the expected Boolean logic.
+### Simulation & Waveform Analysis
 
+The PSPICE simulation files and waveform results are organized inside the `simulation/` directory.
 
-## Observations & Results
-- The output waveform accurately follows the expected Boolean logic for all input combinations.
-- CMOS inverter achieves full voltage swing between 0 V and V<sub>DD</sub>.
-- Proper complementary operation of NMOS and PMOS networks is observed, confirming correct static CMOS behavior.
-- Static power dissipation is minimal, with power consumption occurring primarily during switching transitions.
+- Circuit schematics, input sources, and model files are located in `simulation/`
+- Output waveform plots are generated using PSPICE probes
+- Detailed steps to run the simulation and view waveforms are provided in **[`simulation/README.md`](simulation/README.md)**
 
+Refer to that file for simulator-specific instructions.
 
-## Skills Demonstrated
-- CMOS digital circuit design and implementation
-- Boolean logic realization using NMOS and PMOS networks
-- PSPICE simulation and waveform verification
-- Understanding of low-power digital circuits and inverter behavior
+### Observations & Results
+- Output waveform matches the Boolean expression for all input combinations
+- Full voltage swing (0 V to VDD) confirms correct CMOS logic levels
+- Complementary NMOS/PMOS switching observed, validating static CMOS behavior
+- Static power dissipation is negligible; power is consumed mainly during switching
+
+## Learning Outcomes
+- Design and simulate CMOS digital circuits from Boolean expressions.
+- Implement NMOS and PMOS networks for logic gates (NAND, NOR, Inverter).
+- Verify circuit functionality using PSPICE and analyze output waveforms.
+- Understand low-power operation and complementary CMOS behavior.### Simulation Procedure
 
 ## Project Nature
 This lab experiment was completed as part of the **Circuits and Simulation Laboratory**, evaluated for semester practical examination. Focus: CMOS design, Boolean logic realization, PSPICE simulation, and low-power digital circuit verification.
