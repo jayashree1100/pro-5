@@ -119,11 +119,11 @@ Note: The AND/OR terms describe the conduction behavior of NMOS and PMOS network
 
 ### Simulation & Waveform Analysis
 
-The PSPICE simulation files and waveform results are organized inside the `simulation/` directory.
+The PSPICE simulation files and waveform results are organized inside the `Simulation/` directory.
 
-- Circuit schematics, input sources, and model files are located in `simulation/`
+- Circuit schematics, input sources, and model files are located in `Simulation/`
 - Output waveform plots are generated using PSPICE probes
-- Detailed steps to run the simulation and view waveforms are provided in **[`simulation/README.md`](simulation/README.md)**
+- Detailed steps to run the simulation and view waveforms are provided in **[`Simulation/README.md`](Simulation/README.md)**
 
 Refer to that file for simulator-specific instructions.
 
@@ -137,7 +137,7 @@ Refer to that file for simulator-specific instructions.
 - Design and simulate CMOS digital circuits from Boolean expressions.
 - Implement NMOS and PMOS networks for logic gates (NAND, NOR, Inverter).
 - Verify circuit functionality using PSPICE and analyze output waveforms.
-- Understand low-power operation and complementary CMOS behavior.### Simulation Procedure
+- Understand low-power operation and complementary CMOS behavior.
 
 ## Project Nature
 This lab experiment was completed as part of the **Circuits and Simulation Laboratory**, evaluated for semester practical examination. Focus: CMOS design, Boolean logic realization, PSPICE simulation, and low-power digital circuit verification.
